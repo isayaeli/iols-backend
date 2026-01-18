@@ -168,8 +168,6 @@ PUT    /api/incidents/{id}/status
 ```
 open → investigating → resolved → closed
 ```
-
-* Skipping steps is not allowed
 * Every status change creates an audit record
 
 ---
@@ -187,10 +185,5 @@ open → investigating → resolved → closed
 
 * Backend is API-only (no Blade views)
 * Designed for SPA consumption
-* Clean migrations and service-layer business logic
 
----
 
-## Author
-
-Interview Submission – Incident & Operations Log System
